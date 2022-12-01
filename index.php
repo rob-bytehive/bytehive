@@ -229,7 +229,7 @@
               <textarea name="message" placeholder="message" id="message" name="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
             </div>
             <div class="text-center d-grid mt-1">
-              <button type="submit" class="g-recaptcha btn btn-primary rounded-pill pt-3 pb-3" data-sitekey="reCAPTCHA_site_key" 
+              <button type="submit" class="g-recaptcha btn btn-primary rounded-pill pt-3 pb-3" data-sitekey="<?=$recaptcha_key?>" 
                       data-callback='onSubmit' data-action='submit'>
                 submit
                 <i class="fas fa-paper-plane"></i>

@@ -1,5 +1,6 @@
 <?php
   include("incl/db.php");
+  include("incl/config.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
