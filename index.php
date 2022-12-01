@@ -66,9 +66,7 @@
           <div class="icon d-block fas fa-paper-plane"></div>
           <h3 class="display-3--title mt-1">Marketing</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Tired of not getting clients, we'll sort out all your social media needs.
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -92,9 +90,7 @@
           <div class="icon d-block fas fa-code"></div>
           <h3 class="display-3--title mt-1">web development</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Your website isn't working for you anymore and you're looking for a quick and easy fix. We can do that. We'll take your current site, sprinkle in some love, and turn it into a website that will work wonders for your business. We'll also give you a fresh look that makes your branding pop. 
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -102,7 +98,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+<!--     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
           <div class="icon d-block fas fa-cloud-upload-alt"></div>
@@ -122,7 +118,7 @@
           <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 
