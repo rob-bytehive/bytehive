@@ -215,28 +215,28 @@
       <div class="col-12 col-lg-6 bg-white shadow p-3">
         <div class="form w-100 pb-2">
           <h4 class="display-3--title mb-5">start your project</h4>
-          <form action="scripts/contact.php" id="contact" method="post" class="row">
-           
-            <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" name="inputFirstName" class="shadow form-control form-control-lg" required>
-            </div>
-            <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" name="inputLastName" class="shadow form-control form-control-lg" required>
-            </div>
-            <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" name="inputEmail" class="shadow form-control form-control-lg" required>
-            </div>
-            <div class="col-lg-12 mb-3">
-              <textarea name="message" placeholder="message" id="message" name="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
-            </div>
-            <div class="text-center d-grid mt-1">
-               <div class="g-recaptcha" data-sitekey="<?=$recaptcha_key?>"></div>
-              <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3 mt-3">
-                submit
-                <i class="fas fa-paper-plane"></i>
-              </button>
-            </div>
-          </form>
+            <form class="row" action="scripts/contact.php" id="contact_us" method="POST" enctype="multipart/form-data">
+              <input type="hidden" id="token" name="token">
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" placeholder="First Name" id="inputFirstName" name="inputFirstName" class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" placeholder="Last Name" id="inputLastName" name="inputLastName" class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-12 mb-3">
+                <input type="email" placeholder="Email Address" id="inputEmail" name="inputEmail" class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-12 mb-3">
+                <textarea name="message" placeholder="Your enquiry" id="message" name="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
+              </div>
+              <div class="text-center d-grid mt-1">
+               <!--  <button type="submit" class="g-recaptcha btn btn-primary rounded-pill pt-3 pb-3" data-sitekey="<?=$recaptcha_key?>" data-callback="onSubmit">
+                  submit
+                  <i class="fas fa-paper-plane"></i>
+                </button> -->
+                <button name="submit" class="g-recaptcha btn btn-primary rounded-pill pt-3 pb-3">Submit <i class="fas fa-paper-plane"></i></button>
+              </div>
+            </form>
         </div>
       </div>
     </div>

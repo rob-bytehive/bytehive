@@ -73,8 +73,17 @@
 </a>
 
 
+    <script>
+      grecaptcha.ready(function() {
 
-   
+        grecaptcha.execute('6LfRgEsjAAAAAMKHFoE5suMRNyV_BFsRFt-_cSmx',{
+          action: 'submit'}).then(function(token) {
+            console.log(token);
+            document.getElementById("token").value = token;
+          });
+
+      })
+    </script>
     <script src="assets/vendors/js/glightbox.min.js"></script>
 
     <script type="text/javascript">
@@ -89,11 +98,5 @@
     
     </script>
      <script src="assets/js/bootstrap.bundle.min.js"></script>
-     <script src="https://www.google.com/recaptcha/api.js"></script>
-     <script>
-       function onSubmit(token) {
-         document.getElementById("contact").submit();
-       }
-     </script>
 </body>
 </html>
