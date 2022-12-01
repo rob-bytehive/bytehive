@@ -1,45 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bytehive</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
-<!-- ////////////////////////////////////////////////////////////////////////////////////////
-                               START SECTION 1 - THE NAVBAR SECTION  
-/////////////////////////////////////////////////////////////////////////////////////////////-->
-<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="">
-        <img src="images/logo.png" class="img-fluid" alt="logo image">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <!-- <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq">faq</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li> -->
-          <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
-                            START SECTION 2 - THE INTRO SECTION  
-/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<?php
+  include('incl/header.php');
+  include('incl/nav.php');
+?>
 
 <section id="home" class="intro-section">
   <div class="container">
@@ -71,16 +33,12 @@
 </section>
 
 
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////
-                         START SECTION 4 - THE SERVICES  
-///////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="services" class="services">
   <div class="container">
     <div class="row text-center">
       <h1 class="display-3 fw-bold">Our Services</h1>
       <div class="heading-line mb-1"></div>
     </div>
-  <!-- START THE DESCRIPTION CONTENT  -->
     <div class="row pt-2 pb-2 mt-0 mb-3">
       <div class="col-md-6 border-right">
         <div class="bg-white p-3">
@@ -101,9 +59,7 @@
     </div>
   </div>
 
-  <!-- START THE CONTENT FOR THE SERVICES  -->
   <div class="container">
-    <!-- START THE MARKETING CONTENT  -->
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
@@ -125,7 +81,6 @@
         </div>
       </div>
     </div>
-    <!-- START THE WEB DEVELOPMENT CONTENT  -->
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
         <div class="services__pic">
@@ -147,7 +102,6 @@
         </div>
       </div>
     </div>
-    <!-- START THE CLOUD HOSTING CONTENT  -->
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
@@ -172,10 +126,6 @@
   </div>
 </section>
 
-
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
-                       START SECTION 6 - THE FAQ 
-//////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="faq" class="faq">
   <div class="container">
     <div class="row text-center">
@@ -183,11 +133,9 @@
       <div class="heading-line"></div>
       <p class="lead">frequently asked questions, get knowledge befere hand</p>
     </div>
-    <!-- ACCORDION CONTENT  -->
     <div class="row mt-5">
       <div class="col-md-12">
         <div class="accordion" id="accordionExample">
-          <!-- ACCORDION ITEM 1 -->
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -200,7 +148,6 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 2 -->
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -213,7 +160,6 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 3 -->
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -226,7 +172,6 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 4 -->
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -245,9 +190,6 @@
   </div>
 </section>
 
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
-              START SECTION 8 - GET STARTED  
-/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="contact" class="get-started mt-4">
   <div class="container">
     <div class="row text-center">
@@ -255,8 +197,6 @@
       <div class="heading-line"></div>
       
     </div>
-
-    <!-- START THE CTA CONTENT  -->
     <div class="row mt-3 text-white">
       <div class="col-12 col-lg-6 gradient shadow p-3">
         <div class="cta-info w-100">
@@ -275,21 +215,22 @@
       <div class="col-12 col-lg-6 bg-white shadow p-3">
         <div class="form w-100 pb-2">
           <h4 class="display-3--title mb-5">start your project</h4>
-          <form action="#" class="row">
+          <form action="scripts/contact.php" id="contact" method="post" class="row">
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="First Name" id="inputFirstName" name="inputFirstName" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-6 col-md mb-3">
-              <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+              <input type="text" placeholder="Last Name" id="inputLastName" name="inputLastName" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+              <input type="email" placeholder="email address" id="inputEmail" name="inputEmail" class="shadow form-control form-control-lg" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+              <textarea name="message" placeholder="message" id="message" name="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
             </div>
             <div class="text-center d-grid mt-1">
-              <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+              <button type="submit" class="g-recaptcha btn btn-primary rounded-pill pt-3 pb-3" data-sitekey="reCAPTCHA_site_key" 
+                      data-callback='onSubmit' data-action='submit'>
                 submit
                 <i class="fas fa-paper-plane"></i>
               </button>
@@ -300,118 +241,6 @@
     </div>
   </div>
 </section>
-
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////
-                           START SECTION 9 - THE FOOTER  
-///////////////////////////////////////////////////////////////////////////////////////////////-->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <!-- CONTENT FOR THE MOBILE NUMBER  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-       <!--  <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-            <path d="M15 7a2 2 0 0 1 2 2" />
-            <path d="M15 3a6 6 0 0 1 6 6" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">+44 123456789</a>
-          <p class="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
-        </div> -->
-      </div>  
-      <!-- CONTENT FOR EMAIL  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <polyline points="3 9 12 15 21 9 12 3 3 9" />
-            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-            <line x1="3" y1="19" x2="9" y2="13" />
-            <line x1="15" y1="13" x2="21" y2="19" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">info@bytehive.co.uk</a>
-          <p class="contact-box__info--subtitle">Online support</p>
-        </div>
-      </div>
-      <!-- CONTENT FOR LOCATION  -->
-      <!-- <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <line x1="18" y1="6" x2="18" y2="6.01" />
-            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
-            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
-            <line x1="9" y1="4" x2="9" y2="17" />
-            <line x1="15" y1="15" x2="15" y2="20" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">UK</a>
-          <p class="contact-box__info--subtitle"></p>
-        </div>
-      </div> -->
-    </div>
-  </div>
-
-  <!-- START THE SOCIAL MEDIA CONTENT  -->
-  <!-- <div class="footer-sm" style="background-color: #212121;">
-    <div class="container">
-      <div class="row py-4 text-center text-white">
-        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-          connect with us on social media
-        </div>
-        <div class="col-lg-7 col-md-6">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-  <!-- START THE COPYRIGHT INFO  -->
-  <div class="footer-bottom pt-5 pb-5">
-    <div class="container">
-      <div class="row text-center text-white">
-        <div class="col-12">
-          <div class="footer-bottom__copyright">
-            &COPY; Copyright 2022 <a href="#">Bytehive</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- BACK TO TOP BUTTON  -->
-<a href="#" class="shadow btn-primary rounded-circle back-to-top">
-  <i class="fas fa-chevron-up"></i>
-</a>
-
-
-
-   
-    <script src="assets/vendors/js/glightbox.min.js"></script>
-
-    <script type="text/javascript">
-      const lightbox = GLightbox({
-        'touchNavigation': true,
-        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
-        'type': 'video',
-        'source': 'youtube', //vimeo, youtube or local
-        'width': 900,
-        'autoPlayVideos': 'true',
-});
-    
-    </script>
-     <script src="assets/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<?php
+  include('incl/footer.php');
+?>
