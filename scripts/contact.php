@@ -16,8 +16,13 @@ if ($_POST) {
 		)
 	);
 
+	$context = stream_context_create($options);
+	$response = file_get_contents($recaptcha_url,false,$context);
 
-	if ($recaptcha['success'] == 1 AND $recaptcha['score'] >= 0.5 AND $recaptcha['action'] == "submit") {
+	$res = json_decode($response, true);
+
+
+	if ($res['success'] == true) {
 
 		include('../incl/db.php');
 
@@ -26,7 +31,12 @@ if ($_POST) {
 		$email = $_POST['inputEmail'];
 		$message = $_POST['message'];
 
-		mysqli_query("INSERT INTO enquiries SET first_name = '$firstName', last_name = '$lastName', email = '$email', enquiry = '$message'",$link) or die(mysqli_error());
+		// echo "INSERT INTO enquiries SET first_name = '$firstName', last_name = '$lastName', email = '$email', enquiry = '$message'";
+		// exit;
+
+		mysqli_query($link,"INSERT INTO enquiries SET first_name = '$firstName', last_name = '$lastName', email = '$email', enquiry = '$message'") or die(mysqli_error());
+		mysqli_close($link);
+		header("Location: /index.php");
 
 	} else {
 		echo 'oooppps';
