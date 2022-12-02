@@ -12,7 +12,7 @@
           <span class="display-2--intro">Your website, your voice</span>
           <span class="display-2--description lh-base">
 
-            Bytehive is here to deliver high-quality, affordable websites.
+           We at Bytehive are here to ensure that you receive the best service, information, and attention in creating your dream website.
           </span>
         </h1>
         <a class="contact" href="#contact">
@@ -50,9 +50,7 @@
       <div class="col-md-6">
         <div class="bg-white p-4 text-start">
           <p class="fw-light">
-            Lorem ipsum dolor sit amet consectetur architecto magni, 
-            dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias. 
-            Tempore ducimus molestiae in dolore enim.
+            Whether you need an expert website, an online store, or a complete ERP system, we're your one-stop solution that also provides consulting services to optimize your company's processes. We are constantly innovating and coming up with new solutions to meet the needs of today's ever-changing business climate.
           </p>
         </div>
       </div>
@@ -60,7 +58,7 @@
   </div>
 
   <div class="container">
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
           <div class="icon d-block fas fa-paper-plane"></div>
@@ -78,7 +76,7 @@
           <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
         <div class="services__pic">
@@ -92,9 +90,9 @@
           <p class="lh-lg">
             Your website isn't working for you anymore and you're looking for a quick and easy fix. We can do that. We'll take your current site, sprinkle in some love, and turn it into a website that will work wonders for your business. We'll also give you a fresh look that makes your branding pop. 
           </p>
-          <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+          <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
-          </button>
+          </button> -->
         </div>
       </div>
     </div>
@@ -135,48 +133,48 @@
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What are the main features?
+                How much does a new website cost?
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                There’s not one single answer to this question. A website design is quoted based on the needs of each individual project. Every website is unique and requires different components; we design and develop custom websites specifically for your small business. We’ll ask a lot of questions, assess your needs, and give you a quote based on that assessment.
               </div>
             </div>
           </div>
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                do i have to pay again after trial
+                Will you maintain my site for me?
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                Yes! We provide on-going support for many of our clients.
               </div>
             </div>
           </div>
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            How can I get started after trial?
+                What if I need help on my site down the road?
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                We are only an email away! We’re here to help you as much or as little as you need, and we won’t disappear once the site is launched. We’ve been doing this for many years, so we aren’t going anywhere anytime soon.
               </div>
             </div>
           </div>
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Can I be refunded if am not satisfied?
+                When do I pay?
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                For most projects, equal payments are made at the start, midway, and the end of the project, but we can work with you to set up a schedule that meets your needs. We understand that this is a big investment and want to help you budget for the expense in whatever way possible.
               </div>
             </div>
           </div>
@@ -198,7 +196,7 @@
         <div class="cta-info w-100">
           <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
+            We know how important it is to have a website that works for your business, and we're here to help you make it happen. Whether you're looking for something brand new or just want to freshen up an old site, we're here for you.
           </p>
           <h3 class="display-3--brief">What will be the next step?</h3>
           <ul class="cta-info__list">

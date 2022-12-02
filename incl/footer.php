@@ -27,7 +27,7 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">info@bytehive.co.uk</a>
+          <a href="#" class="contact-box__info--title"><?=$email?></a>
           <p class="contact-box__info--subtitle">Online support</p>
         </div>
       </div>

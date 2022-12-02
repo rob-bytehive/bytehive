@@ -31,12 +31,37 @@ if ($_POST) {
 		$email = $_POST['inputEmail'];
 		$message = $_POST['message'];
 
-		// echo "INSERT INTO enquiries SET first_name = '$firstName', last_name = '$lastName', email = '$email', enquiry = '$message'";
-		// exit;
+		// mysqli_query($link,"INSERT INTO enquiries SET first_name = '$firstName', last_name = '$lastName', email = '$email', enquiry = '$message'") or die(mysqli_error());
 
-		mysqli_query($link,"INSERT INTO enquiries SET first_name = '$firstName', last_name = '$lastName', email = '$email', enquiry = '$message'") or die(mysqli_error());
+		//send confirmation email
+
+		$query = "SELECT email_content FROM emails WHERE id = 1";
+		$result = mysqli_query($link, $query);
+		$email = mysqli_fetch_assoc($result);
+		$content = $email['email_content'];
+
+		$this_html = str_replace(
+			array(
+				"%NAME%"
+			),
+			array(
+				$firstName
+			),
+			$content
+		);
+
+		$return_mail = new htmlMimeMail();
+		$return_mail->setHTML($this_html);
+		$return_mail->setReturnPath("info@bytehive.co.uk");
+		$return_mail->setFrom("info@bytehive.co.uk");
+		$return_mail->setSubject("Thank you for your enquiry");
+
+		$result = $return_mail->send(array("info@bytehive.co.uk"));
+
 		mysqli_close($link);
 		header("Location: /index.php");
+		exit();
+		
 
 	} else {
 		echo 'oooppps';
