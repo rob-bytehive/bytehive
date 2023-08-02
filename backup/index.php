@@ -1,0 +1,243 @@
+<?php
+  // header("Location: https://www.bytehive.co.uk/coming.php");
+  // exit();
+  include('incl/header.php');
+  include('incl/nav.php');
+?>
+
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <!-- START THE CONTENT FOR THE INTRO  -->
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-1">
+          <span class="display-2--intro">Your website, your voice</span>
+          <span class="display-2--description lh-base">
+
+           We at Bytehive are here to ensure that you receive the best service, information, and attention in creating your dream website.
+          </span>
+        </h1>
+        <a class="contact" href="#contact">
+          <button type="button" class="rounded-pill btn-rounded">Get in Touch
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
+      </a>
+      </div>
+      <!-- START THE CONTENT FOR THE VIDEO -->
+      <div class="col-md-6 intros text-end">
+        <div class="video-box">
+          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+
+<section id="services" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold">Our Services</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+    <div class="row pt-2 pb-2 mt-0 mb-3">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-bold text-capitalize text-center">
+            Our Services Range From Initial Design To Deployment Anywhere Anytime
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light">
+            Whether you need an expert website, an online store, or a complete ERP system, we're your one-stop solution that also provides consulting services to optimize your company's processes. We are constantly innovating and coming up with new solutions to meet the needs of today's ever-changing business climate.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-paper-plane"></div>
+          <h3 class="display-3--title mt-1">Marketing</h3>
+          <p class="lh-lg">
+            Tired of not getting clients, we'll sort out all your social media needs.
+          </p>
+          <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+        </div>
+      </div>
+    </div> -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__pic">
+          <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">web development</h3>
+          <p class="lh-lg">
+            Your website isn't working for you anymore and you're looking for a quick and easy fix. We can do that. We'll take your current site, sprinkle in some love, and turn it into a website that will work wonders for your business. We'll also give you a fresh look that makes your branding pop. 
+          </p>
+          <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button> -->
+        </div>
+      </div>
+    </div>
+<!--     <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-cloud-upload-alt"></div>
+          <h3 class="display-3--title mt-1">cloud hosting</h3>
+          <p class="lh-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
+             doloremque autem quibusdam blanditiis harum alias hic accusantium 
+             maxime atque ratione magni repellat?
+          </p>
+          <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<section id="faq" class="faq">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+      <div class="heading-line"></div>
+      <p class="lead">frequently asked questions, get knowledge befere hand</p>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                How much does a new website cost?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                There’s not one single answer to this question. A website design is quoted based on the needs of each individual project. Every website is unique and requires different components; we design and develop custom websites specifically for your small business. We’ll ask a lot of questions, assess your needs, and give you a quote based on that assessment.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Will you maintain my site for me?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes! We provide on-going support for many of our clients.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What if I need help on my site down the road?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                We are only an email away! We’re here to help you as much or as little as you need, and we won’t disappear once the site is launched. We’ve been doing this for many years, so we aren’t going anywhere anytime soon.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                When do I pay?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                For most projects, equal payments are made at the start, midway, and the end of the project, but we can work with you to set up a schedule that meets your needs. We understand that this is a big investment and want to help you budget for the expense in whatever way possible.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="get-started mt-4">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+      <div class="heading-line"></div>
+      
+    </div>
+    <div class="row mt-3 text-white">
+      <div class="col-12 col-lg-6 gradients shadow p-3">
+        <div class="cta-info w-100">
+          <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+          <p class="lh-lg">
+            We know how important it is to have a website that works for your business, and we're here to help you make it happen. Whether you're looking for something brand new or just want to freshen up an old site, we're here for you.
+          </p>
+          <h3 class="display-3--brief">What will be the next step?</h3>
+          <ul class="cta-info__list">
+            <li>We'll prepare the proposal.</li>
+            <li>We'll discuss it together.</li>
+            <li>Let's start the discussion.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 bg-white shadow p-3">
+        <div class="form w-100 pb-2">
+          <h4 class="display-3--title mb-5">start your project</h4>
+            <form class="row" action="scripts/contact.php" id="contact_us" method="POST" enctype="multipart/form-data">
+              <input type="hidden" id="token" name="token">
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" placeholder="First Name" id="inputFirstName" name="inputFirstName" class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-6 col-md mb-3">
+                <input type="text" placeholder="Last Name" id="inputLastName" name="inputLastName" class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-12 mb-3">
+                <input type="email" placeholder="Email Address" id="inputEmail" name="inputEmail" class="shadow form-control form-control-lg" required>
+              </div>
+              <div class="col-lg-12 mb-3">
+                <textarea name="message" placeholder="Your enquiry" id="message" name="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
+              </div>
+              <div class="text-center d-grid mt-1">
+               <!--  <button type="submit" class="g-recaptcha btn btn-primary rounded-pill pt-3 pb-3" data-sitekey="<?=$recaptcha_key?>" data-callback="onSubmit">
+                  submit
+                  <i class="fas fa-paper-plane"></i>
+                </button> -->
+                <button name="submit" class="g-recaptcha btn btn-primary rounded-pill pt-3 pb-3">Submit <i class="fas fa-paper-plane"></i></button>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<?php
+  include('incl/footer.php');
+?>

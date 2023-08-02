@@ -10870,19 +10870,19 @@ textarea.form-control-lg {
 }
 
 .menu {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
 }
 .menu li {
   padding: 0 0.7rem;
 }
 .menu li a {
-  color: #fff;
+  color: #333;
   padding: 0 0.7rem;
   text-transform: capitalize;
   font-weight: 600;
 }
 .menu li:hover {
-  color: #fff;
+  color: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
 
 .intro-section {
@@ -11025,7 +11025,7 @@ textarea.form-control-lg {
 .portfolio-box {
   position: relative;
   width: 100%;
-  height: 18.5rem;
+  /*height: 18.5rem;*/
   overflow: hidden;
   margin-bottom: 1.2rem;
   border-top: 0.5rem solid #c685f7;
@@ -11071,6 +11071,9 @@ textarea.form-control-lg {
 .get-started {
   padding: 4rem 0;
   background-color: #e9ecef;
+}
+.faq-bg {
+  padding: 0rem 0;
 }
 
 .cta-info {
@@ -11203,8 +11206,8 @@ textarea.form-control-lg {
   position: fixed;
   width: 3rem;
   height: 3rem;
-  right: 1.875rem;
-  bottom: 1.875rem;
+  right: 0.875rem;
+  bottom: 5.875rem;
   z-index: 9999;
 }
 .back-to-top i {

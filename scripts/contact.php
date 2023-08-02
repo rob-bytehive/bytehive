@@ -28,10 +28,10 @@ if ($_POST) {
 
 		$firstName = $_POST['inputFirstName'];
 		$lastName = $_POST['inputLastName'];
-		$email = $_POST['inputEmail'];
+		$email_address = $_POST['inputEmail'];
 		$message = $_POST['message'];
 
-		// mysqli_query($link,"INSERT INTO enquiries SET first_name = '$firstName', last_name = '$lastName', email = '$email', enquiry = '$message'") or die(mysqli_error());
+		mysqli_query($link,"INSERT INTO enquiries SET first_name = '$firstName', last_name = '$lastName', email = '$email_address', enquiry = '$message'") or die(mysqli_error());
 
 		//send confirmation email
 
@@ -50,16 +50,27 @@ if ($_POST) {
 			$content
 		);
 
-		$return_mail = new htmlMimeMail();
-		$return_mail->setHTML($this_html);
-		$return_mail->setReturnPath("info@bytehive.co.uk");
-		$return_mail->setFrom("info@bytehive.co.uk");
-		$return_mail->setSubject("Thank you for your enquiry");
+		$to      = $email_address;
+		$subject = 'Thank you for your enquiry';
+		$message = $this_html;
+		$headers = "MIME-Version: 1.0" . "\r\n"; 
+		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n"; 
+		$headers .= 'From: info@bytehive.co.uk' . "\r\n" .
+		    'Reply-To: info@bytehive.co.uk' . "\r\n" .
+		    'X-Mailer: PHP/' . phpversion();
 
-		$result = $return_mail->send(array("info@bytehive.co.uk"));
+		mail($to, $subject, $message, $headers);
+
+		// $return_mail = new htmlMimeMail();
+		// $return_mail->setHTML($this_html);
+		// $return_mail->setReturnPath("info@bytehive.co.uk");
+		// $return_mail->setFrom("info@bytehive.co.uk");
+		// $return_mail->setSubject("Thank you for your enquiry");
+
+		// $result = $return_mail->send(array("info@bytehive.co.uk"));
 
 		mysqli_close($link);
-		header("Location: /index.php");
+		header("Location: /thanks.php");
 		exit();
 		
 

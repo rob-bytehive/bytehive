@@ -59,7 +59,7 @@
       <div class="row text-center text-white">
         <div class="col-12">
           <div class="footer-bottom__copyright">
-            &COPY; Copyright 2022 <a href="#">Bytehive</a>
+            &COPY; Copyright 2022 <a href="#">Bytehive</a>&nbsp; / &nbsp; <a href="terms.php">Terms & Conditions</a>
           </div>
         </div>
       </div>

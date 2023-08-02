@@ -120,7 +120,104 @@
   </div>
 </section>
 
-<section id="faq" class="faq">
+<section id="portfolio" class="portfolio get-started">
+  <div class="container">
+    <div class="row text-center mt-5">
+      <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+      <div class="heading-line"></div>
+    </div>
+    <!-- FILTER BUTTONS  -->
+    <!-- <div class="row mt-5 mb-4 g-3 text-center">
+      <div class="col-md-12">
+        <button class="btn btn-outline-primary" type="button">All</button>
+        <button class="btn btn-outline-primary" type="button">websites</button>
+        <button class="btn btn-outline-primary" type="button">design</button>
+        <button class="btn btn-outline-primary" type="button">mockup</button>
+      </div>
+    </div> -->
+
+    <!-- START THE PORTFOLIO ITEMS  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/lofthouse.png" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Lofthouse Services</h4>
+              <p>Website development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/reptasia.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Reptasia</h4>
+              <p>Website development</p>
+              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://reptasiauk.com">https://reptasiauk.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e9ecef" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  <div class="container">
+    <div class="row text-center text-white">
+      <h1 class="display-3 fw-bold">Testimonials</h1>
+      <hr style="width: 100px; height: 3px; " class="mx-auto">
+      <p class="lead pt-1">what our clients are saying</p>
+    </div>
+
+    <!-- START THE CAROUSEL CONTENT  -->
+    <div class="row align-items-center">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- CAROUSEL ITEM 1 -->
+          <div class="carousel-item active">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+               I am absolutely thrilled with the exceptional work done by Bytehive in designing our website. Their team's creativity, attention to detail, and professionalism truly exceeded our expectations. From the initial concept to the final product, they demonstrated a deep understanding of our brand and translated it into a visually stunning and user-friendly website. The seamless navigation, engaging visuals, and intuitive layout have undoubtedly enhanced our online presence and user experience. Collaborating with Bytehive was an absolute pleasure, and I highly recommend their services to anyone seeking a top-notch web design partner. They've not only crafted a remarkable website but also contributed significantly to our business's success. Thank you, Bytehive, for your outstanding work!
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-1.png" alt="client-1 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Lofthouse Services</h3>
+            </div>
+          </div>          
+        </div>
+        <!-- <div class="text-center">
+          <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        </button>
+        <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        </button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<section id="faq" class="faq faq-bg">
   <div class="container">
     <div class="row text-center">
       <h1 class="display-3 fw-bold text-uppercase">faq</h1>
@@ -201,8 +298,8 @@
           <h3 class="display-3--brief">What will be the next step?</h3>
           <ul class="cta-info__list">
             <li>We'll prepare the proposal.</li>
-            <li>we'll discuss it together.</li>
-            <li>let's start the discussion.</li>
+            <li>We'll discuss it together.</li>
+            <li>Let's start the discussion.</li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access to /dev"
+AuthUserFile /kunden/homepages/13/d943093412/htpasswd
+Require user bh-admin
