@@ -144,7 +144,7 @@
           <div class="portfolio-info">
             <div class="caption">
               <h4>Lofthouse Services</h4>
-              <p>Website development</p>
+              <p>Website development <br>Hosting</p>
             </div>
           </div>
         </div>
@@ -156,10 +156,26 @@
             <div class="caption">
               <h4>Reptasia</h4>
               <p>Website development</p>
-              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://reptasiauk.com">https://reptasiauk.com</a></p>
+              <!-- <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://reptasiauk.com">https://reptasiauk.com</a></p> -->
             </div>
           </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/azuna.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Azuna</h4>
+              <p>Website development <br>Hosting</p>
+              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://www.azunasolutions.com">https://www.azunasolutions.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-lg-3"></div>
       </div>
     </div>
   </div>
