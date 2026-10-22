@@ -49,8 +49,8 @@
       </div>
       <div class="col-md-6">
         <div class="bg-white p-4 text-start">
-          <p class="fw-light">
-            Whether you need an expert website, an online store, or a complete ERP system, we're your one-stop solution that also provides consulting services to optimize your company's processes. We are constantly innovating and coming up with new solutions to meet the needs of today's ever-changing business climate.
+          <p class="lh-lg">
+            Whether you need an expert website, an online store, or a complete custom built CMS system, we're your one-stop solution that also provides consulting services to optimize your company's processes. We are constantly innovating and coming up with new solutions to meet the needs of today's ever-changing business climate.
           </p>
         </div>
       </div>
@@ -85,8 +85,8 @@
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-code"></div>
-          <h3 class="display-3--title mt-1">web development</h3>
+          <div class="icon d-block fas fa-code">&nbsp;&nbsp;<h3 class="display-6--title mt-1">web development</h3></div>
+          
           <p class="lh-lg">
             Your website isn't working for you anymore and you're looking for a quick and easy fix. We can do that. We'll take your current site, sprinkle in some love, and turn it into a website that will work wonders for your business. We'll also give you a fresh look that makes your branding pop. 
           </p>
@@ -96,19 +96,19 @@
         </div>
       </div>
     </div>
-<!--     <div class="row">
+    <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-cloud-upload-alt"></div>
-          <h3 class="display-3--title mt-1">cloud hosting</h3>
+          <div class="icon d-block fas fa-server">&nbsp;&nbsp;<h3 class="display-6--title mt-1">Hosting</h3></div>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Need a domain name that stands out? We make it easy to secure the perfect digital identity for your brand.
           </p>
-          <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+          <p class="lh-lg">
+              Already have a site or ready to launch? Host it on infrastructure you can trust. Our high-performance servers deliver rock-solid stability, top-tier security, and the speed your users expect.
+          </p>
+         <!--  <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
-          </button>
+          </button> -->
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -116,7 +116,7 @@
           <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
         </div>
       </div>
-    </div> -->
+    </div>
   </div>
 </section>
 
@@ -140,6 +140,93 @@
     <div class="row">
       <div class="col-lg-6 col-md-6">
         <div class="portfolio-box shadow">
+          <img src="images/portfolio/swingzonegolf.png" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Swing Zone Golf</h4>
+              <p>Website development <br>Hosting</p>
+               <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://www.swingzonegolf.co.uk" target="_blank">https://www.swingzonegolf.co.uk</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/stealth.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Stealth Martial Arts</h4>
+              <p>Website development 
+              <br>Admin & Student portal development
+              <br>
+              Hosting</p>
+              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://stealthmartialarts.com/">https://stealthmartialarts.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/azuna.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Azuna</h4>
+              <p>Website development <br>Hosting</p>
+              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://www.azunasolutions.com" target="_blank">https://www.azunasolutions.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/src.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Stuart Russell Carpets</h4>
+              <p>Website development <br>Hosting</p>
+              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://www.stuartrussellcarpets.co.uk" target="_blank">https://www.stuartrussellcarpets.co.uk</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/divine.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Divine Nails & Beauty</h4>
+              <p>Website development <br>Hosting</p>
+              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://www.divinenailsbeauty.com/" target="_blank">https://www.divinenailsbeauty.com/</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="images/portfolio/csr.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>CS&R - Caravan service and repairs</h4>
+              <p>
+                Website development 
+                <br>
+                Custom built admin system
+                <br>
+                Hosting
+             </p>
+              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://repairscaravan.co.uk/" target="_blank">https://repairscaravan.co.uk/</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="portfolio-box shadow">
           <img src="images/portfolio/lofthouse.png" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
           <div class="portfolio-info">
             <div class="caption">
@@ -160,22 +247,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6 col-md-6">
-        <div class="portfolio-box shadow">
-          <img src="images/portfolio/azuna.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>Azuna</h4>
-              <p>Website development <br>Hosting</p>
-              <p><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; <a class="text-white" href="https://www.azunasolutions.com">https://www.azunasolutions.com</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-        <div class="col-lg-3"></div>
       </div>
     </div>
   </div>
@@ -219,13 +290,38 @@
             <div class="testimonials__name">
               <h3>Lofthouse Services</h3>
             </div>
+          </div>     
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+               From the very beginning, they demonstrated a clear understanding of what the business needed and delivered a modern, professional site that’s both visually appealing and easy to navigate. The attention to detail, responsiveness to feedback, and technical know-how made the whole process smooth and stress-free. The end result speaks for itself—we’ve had great feedback from customers, and the site truly reflects the quality and reliability of our services. I wouldn’t hesitate to recommend Bytehive to anyone looking for high-quality web development.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/csr-logo.png" alt="client-1 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>CS&R</h3>
+            </div>
           </div>          
         </div>
-        <!-- <div class="text-center">
+        <div class="text-center">
           <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         </button>
         <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        </button> -->
+        </button>
         </div>
       </div>
     </div>

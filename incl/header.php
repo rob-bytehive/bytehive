@@ -26,7 +26,7 @@
     <!-- Primary Meta Tags -->
     <title>Bytehive  - Bespoke Website Development</title>
     <meta name="title" content="Bytehive  - Bespoke Website Development">
-    <meta name="description" content="Your website, your voice! We at Bytehive are here to ensure that you receive the best service, information, and attention in creating your dream website.">
+    <meta name="description" content="Bytehive offers tailored website development services, helping businesses create powerful online presences. From initial design to full deployment, Bytehive specializes in crafting unique websites and CMS systems to align with your brand and business needs.">
     <meta name="keywords" content="Website Development Surrey,Custom PHP Development,Front End Design,Back End Development,Surrey Web Agency,Tailored Web Solutions,Custom CMS,PHP Web Design,Custom Web Development,Surrey Web Developers">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -37,7 +37,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.bytehive.co.uk/">
     <meta property="og:title" content="Bytehive  - Bespoke Website Development">
-    <meta property="og:description" content="Your website, your voice! We at Bytehive are here to ensure that you receive the best service, information, and attention in creating your dream website.">
+    <meta property="og:description" content="Bytehive offers tailored website development services, helping businesses create powerful online presences. From initial design to full deployment, Bytehive specializes in crafting unique websites and CMS systems to align with your brand and business needs.">
     <meta property="og:image" content="https://www.bytehive.co.uk/images/header/logo-meta.png">
     <meta property="og:image:alt" content="Surrey website development Bytehive" />
 
@@ -45,7 +45,7 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.bytehive.co.uk/">
     <meta property="twitter:title" content="Bytehive  - Bespoke Website Development">
-    <meta property="twitter:description" content="Your website, your voice! We at Bytehive are here to ensure that you receive the best service, information, and attention in creating your dream website.">
+    <meta property="twitter:description" content="ytehive offers tailored website development services, helping businesses create powerful online presences. From initial design to full deployment, Bytehive specializes in crafting unique websites and CMS systems to align with your brand and business needs.">
     <meta property="twitter:image" content="https://www.bytehive.co.uk/images/header/logo-meta.png">
     <meta name="twitter:site" content="@BytehiveWeb" />
     <meta name="twitter:creator" content="@BytehiveWeb" />

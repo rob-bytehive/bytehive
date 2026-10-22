@@ -3,9 +3,9 @@
   include('incl/nav.php');
 ?>
 
-<section id="home" class="intro-section">
+<section id="home" class="terms">
   <div class="container">
-    <div class="row align-items-center text-white">
+    <div class="row align-items-center">
       <!-- START THE CONTENT FOR THE INTRO  -->
       <div class="col-md-12 intros text-start">
         <h1 class="display-1">
@@ -28,6 +28,7 @@
                 <li>Liability: Bytehive’s liability is limited to the fees paid for the project. We are not responsible for any consequential damages or losses arising from the use of the website.</li>
                 <li>Legal Jurisdiction: These terms and conditions are governed by the laws of England and Wales. Any legal disputes shall be resolved in the courts of England and Wales.</li>
                 <li>Communication: Bytehive will primarily communicate with clients via email or project management tools for project updates, feedback, and discussions. You can reach us at info@bytehive.co.uk for any project-related communications.</li>
+                <li>We partner with Microsoft Clarity and Microsoft Advertising to capture how you use and interact with our website through behavioral metrics, heatmaps, and session replay to improve and market our products/services. Website usage data is captured using first and third-party cookies and other tracking technologies to determine the popularity of products/services and online activity. Additionally, we use this information for site optimization, fraud/security purposes, and advertising. For more information about how Microsoft collects and uses your data, visit the <a href="https://privacy.microsoft.com/privacystatement" target="_blank">Microsoft Privacy Statement</a></li>
             </ol>
            
           </span>
@@ -40,7 +41,7 @@
       </div>
     </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
 </section>
 
 <?php

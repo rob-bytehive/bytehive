@@ -59,7 +59,8 @@
       <div class="row text-center text-white">
         <div class="col-12">
           <div class="footer-bottom__copyright">
-            &COPY; Copyright 2022 <a href="#">Bytehive</a>&nbsp; / &nbsp; <a href="terms.php">Terms & Conditions</a>
+            &COPY; Copyright <?=date('Y');?> <a href="#">Bytehive</a>&nbsp; / &nbsp; <a href="terms.php">Terms & Conditions</a><br><br>
+            <p>We improve our products and advertising by using Microsoft Clarity to see how you use our website. <br> By using our site, you agree that we and Microsoft can collect and use this data. Our <a href="privacy.php">privacy statement</a> has more details.</p>
           </div>
         </div>
       </div>
