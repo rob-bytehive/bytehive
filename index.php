@@ -9,7 +9,7 @@
       <!-- START THE CONTENT FOR THE INTRO  -->
       <div class="col-md-6 intros text-start">
         <h1 class="display-1">
-          <span class="display-2--intro">Your website, your voice.</span>
+          <span class="display-2--intro">Your website, your voice</span>
           <span class="display-2--description lh-base">
 
            We at Bytehive are here to ensure that you receive the best service, information, and attention in creating your dream website.
