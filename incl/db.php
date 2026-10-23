@@ -19,7 +19,7 @@
 			exit('Could not connect to table.');
 		}
 	} else {
-		$host_name = 'db5011043780.hosting-data.io';
+		$host_name = 'localhost';
 	  	$database = 'dbs9334469';
 	  	$user_name = 'dbu5511877';
 	  	$password = 'cFXMUrB3BurTM!a';
