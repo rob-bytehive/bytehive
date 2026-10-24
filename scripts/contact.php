@@ -20,8 +20,6 @@ if ($_POST) {
 	$response = file_get_contents($recaptcha_url,false,$context);
 
 	$res = json_decode($response, true);
-	var_dump($res);
-	exit;
 
 	if ($res['success'] == true) {
 
